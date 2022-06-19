@@ -1,7 +1,7 @@
 import React from 'react'
-import loginimg from '../../public/images/login.jpg'
+
 import './Login.css'
-import Slide from 'react-reveal/Slide';
+
 import { Col, Row, Container } from "react-bootstrap";
 // import Iframe from 'react-iframe'
 function Login(){
@@ -9,10 +9,6 @@ function Login(){
 		<div className="logindiv">
 		   <Container>
 		     <Row className="row">
-			<Col className="col">
-			<span className="loginimg"> <Slide right> <img src={loginimg} alt="clssImage" className="homeImg"/> </Slide></span> 
-			
-			</Col>
 			<Col className="col">
 			<div className="loginMain">
         <h1 className="loginH1">TeamMaker</h1>
